@@ -1,0 +1,16 @@
+name = "fortran-quicksort"
+version = "1.0.0"
+license = "MIT"
+author = "Developer"
+maintainer = "wajeehaabdullah236@gmail.com"
+copyright = "2024 Developer"
+
+[build]
+auto-executables = true
+auto-tests = true
+auto-examples = true
+
+[[test]]
+name = "run_tests"
+source-dir = "test"
+main = "run_tests.f90"
