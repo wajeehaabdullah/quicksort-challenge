@@ -20,7 +20,12 @@ PROGRAM run_tests
   CALL test_empty_array(total_tests, passed_tests, failed_tests)
 
   PRINT *, "============================================================"
-  PRINT *, "SUMMARY: Total:", total_tests, " Passed:", passed_tests, " Failed:", failed_tests
+  PRINT *, "TEST SUMMARY"
+  PRINT *, "============================================================"
+  PRINT *, "Total Tests: ", total_tests
+  PRINT *, "Passed:      ", passed_tests
+  PRINT *, "Failed:      ", failed_tests
+  PRINT *, "------------------------------------------------------------"
   IF (failed_tests == 0) PRINT *, "RESULT: SUCCESS"
 
 CONTAINS
