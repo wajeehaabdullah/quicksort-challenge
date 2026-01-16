@@ -2,3 +2,4 @@ build/
 *.o
 *.mod
 *.exe
+run_tests
